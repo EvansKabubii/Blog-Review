@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-family: Figtree;
+}
+
+body {
+    height: 100vh;
+    background-color: #f5d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 8%;
+    padding: 20px;
+    width: 27vw;
+    border: 1px solid black;
+    border-right: 8px solid black;
+    border-bottom: 8px solid black;
+}
+
+.tag {
+    background-color: #f5d04e;
+    color: black;
+    font-weight: bolder;
+    padding: 7px;
+    width: fit-content;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5%;
+}
+
+.profile p {
+    font-weight: 600;
+}
+
+#Illustration {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+
+#date {
+    font-size: 14px;
+}
+
+#description {
+    color: gray;
+}
+
+h1 {
+    font-size: larger;
+    font-weight: 800;
+}
+
+p {
+    font-size: 16px;
+}
+
