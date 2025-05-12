@@ -69,3 +69,9 @@ p {
     font-size: 16px;
 }
 
+@media (max-width: 750px) {
+    .container {
+        width: 90vw;
+    }
+}
+
